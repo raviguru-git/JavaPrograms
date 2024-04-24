@@ -13,7 +13,7 @@ public class Fibo1 {
 		for (int i=1; i<=8; i++)
 		{
 			sum = a + b;
-			System.out.println(sum);
+			System.out.println(sum); 
 			a = b;
 			b = sum;
 			

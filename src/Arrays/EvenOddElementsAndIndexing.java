@@ -1,6 +1,8 @@
-package NumberSeries;
+package Arrays;
 
-public class EvenElements {
+import java.util.Arrays;
+
+public class EvenOddElementsAndIndexing {
 	public static void main(String[] args) {
 		int [] a = {10,25,30,15,5,80};
 		
@@ -18,7 +20,7 @@ public class EvenElements {
 		{
 			if(i%2==0)
 			{
-				System.out.println(i);
+				System.out.println(a[i]);
 			}
 		}
 		System.out.println("*********************"); // This is for finding the index which are odd.
@@ -26,7 +28,7 @@ public class EvenElements {
 		{
 			if(i%2!=0)
 			{
-				System.out.println(i);
+				System.out.println(a[i]);
 			}
 		}
 		
