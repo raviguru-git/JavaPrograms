@@ -2,7 +2,7 @@ package Strings;
 
 public class StringRepChars {
 	public static void main(String[] args) {
-		String s = "RAVIGURUUU";
+		String s = "RAVIGURUU$$$$U";
 		char [] ch = s.toCharArray();
 		boolean [] b = new boolean [ch.length];
 		

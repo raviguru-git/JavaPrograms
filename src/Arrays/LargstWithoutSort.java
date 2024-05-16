@@ -13,8 +13,8 @@ public class LargstWithoutSort {
 		{
 			int count =0;
 			for (int j=0 ; j< a.length; j++) // To do comparison with every element.
-			{
-				if (a [j] > a[i])
+			{                                // Compare with i keeping i constant.
+				if (a [j] > a[i])            // i.e. a[j] > a[i].
 				{
 					count ++;
 				}

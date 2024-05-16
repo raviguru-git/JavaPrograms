@@ -2,6 +2,7 @@ package Arrays;
 
 public class CopyArrayElements {
 	public static void main(String[] args) {
+		
 		int [] a = {10,20,30,40,50,80,100,201};
 		int [] res = new int [a.length];
 		System.out.println(a.length);

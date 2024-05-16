@@ -31,6 +31,7 @@ public class EvenOddElementsAndIndexing {
 				System.out.println(a[i]);
 			}
 		}
+		System.out.println(Arrays.toString(a));
 		
 	}
 
