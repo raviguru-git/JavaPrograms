@@ -9,8 +9,17 @@ public class StringExtract {
 		StringBuffer sb = new StringBuffer();
 		
 		String input = "Word#$#$% Word 1234";
-		String extract = input.replaceAll("[^\\W]+","" ); // \\W is a non-word character.
+		//String extract = input.replaceAll("[^\\W]+","" ); // \\W is a non-word character.
 										 //("[^a-zA-Z]+", "");
+		String extract = input.replaceAll("\\W","" ); 
+//(1st) \\w - any word character, so here it will remove (#$#$%)
+		// and replace with "" so o/p is  WordWord1234 
+//		\w	Any word character, short for [a-zA-Z_0-9]
+//		\W	Any non-word character, short for [^\w]
+		
+//(2nd) \\W - any non word character, so here it will remove (#$#$%)
+				// and replace with "" so o/p is  WordWord1234
+		
 	//	input.replaceAll("[^a-zA-Z]+", "")
 		
 		System.out.println(extract);

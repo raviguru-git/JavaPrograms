@@ -27,7 +27,7 @@ public class Ipv4Address {
 		Pattern p = Pattern.compile(regex);
 		if(ip == null) return false;
 		 Matcher m = p.matcher(ip);
-		 // retruns boolean value if its matching here.
+		 // retur ns boolean value if its matching here.
 		 return m.matches();
 		
 	}

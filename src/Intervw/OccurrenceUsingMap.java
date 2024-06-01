@@ -1,6 +1,7 @@
 package Intervw;
 
 import java.util.HashMap;
+import java.util.Map.Entry;
 
 public class OccurrenceUsingMap {
 	public static void main(String[] args) {
@@ -18,8 +19,21 @@ public class OccurrenceUsingMap {
 			{
 				hm.put(ch, 1);
 			}
+			
 		}
-		System.out.println(hm);
+		// To traversing through each element in  map we are 
+		// going to entrySet()
+		for ( Entry<Character, Integer> entry : hm.entrySet())
+		{
+			//if (entry.getValue() == 1 )
+		//	{
+				System.out.println(  entry.getKey() + ":" + entry.getValue());
+			//}
+		}
+		System.out.println(hm.entrySet());
+		
+		
+		
 	}
 
 }

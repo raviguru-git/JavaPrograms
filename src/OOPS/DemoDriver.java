@@ -9,11 +9,18 @@ public class DemoDriver {
 							 // variable to Child type is Downcasting.
 		
 		d.login();  
-		t.logout();
+		t.logout();  // Only when you downcast parent reference
+		             // then only you can access child states and behaviours.
+		// so it will print logout() method of child class.
 		
 		int a = 67;
 		char ch = (char) a; // typecasting int to char type.
 		System.out.println(ch);
+		
+		int b = 67;
+		char c = (char) b;
+		System.out.println(c);
+		
 		
 	} 
 	

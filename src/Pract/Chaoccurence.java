@@ -12,8 +12,9 @@ public class Chaoccurence {
 		
 		for ( char ch : c)
 		{
+			if(!(ch >='a' && ch<='z' || ch>='A' && ch<='Z'))
 			if(hm.containsKey(ch))
-			{
+		 	{
 				hm.put(ch, hm.get(ch)+1);
 			}
 			else

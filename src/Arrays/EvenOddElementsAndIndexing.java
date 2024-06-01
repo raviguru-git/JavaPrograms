@@ -8,7 +8,7 @@ public class EvenOddElementsAndIndexing {
 		
 		
 		for (int i=0; i<a.length;i++)
-		{
+		{ 
 			if(!(a[i]%2==1))  // if(a[i]%2 ==0) / Even no. // if(!a[i]%2==0) Odd number./
 				// For Even index -> i%2==0 and for // For Odd index -> i%2!=0.
 			{
@@ -16,13 +16,16 @@ public class EvenOddElementsAndIndexing {
 			}
 		}
 		System.out.println("*********************");
+		int sum=0;
 		for (int i =0; i<a.length; i++)  // This is for finding the index which are even.
 		{
 			if(i%2==0)
 			{
-				System.out.println(a[i]);
+				//System.out.println(a[i]);
+				sum = sum + a[i];
 			}
 		}
+		System.out.println("Even Index sum is:===>" + sum);
 		System.out.println("*********************"); // This is for finding the index which are odd.
 		for (int i=0; i< a.length; i++)
 		{
@@ -31,7 +34,7 @@ public class EvenOddElementsAndIndexing {
 				System.out.println(a[i]);
 			}
 		}
-		System.out.println(Arrays.toString(a));
+		//System.out.println(Arrays.toString(a));
 		
 	}
 
