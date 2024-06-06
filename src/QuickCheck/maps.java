@@ -35,6 +35,9 @@ public class maps {
 		 * Second Iteration (num = 3):
 		 * * countMap.getOrDefault(3, 0) returns 0 (since 3 is not in the map). 0 + 1 is
 		 * 1. countMap.put(3, 1) adds 3 with a count of 1.
+		 * Third Iteration (num = 2):
+		 * countMap.getOrDefault(2, 0) returns 1 (since 2 is already in the map with a count of 1).
+         * 1 + 1 is 2.  countMap.put(2, 2) updates the count of 2 to 2.
 		 */
 	}
 

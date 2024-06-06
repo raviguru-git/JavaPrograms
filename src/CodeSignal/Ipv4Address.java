@@ -23,11 +23,12 @@ public class Ipv4Address {
 		
 		//String regex	= ZeroTo255+"\\."+ZeroTo255+"\\."+ZeroTo255+"\\."+ZeroTo255;  
 		//System.out.println(regex);
+		
 		//Compile the regex:
 		Pattern p = Pattern.compile(regex);
 		if(ip == null) return false;
 		 Matcher m = p.matcher(ip);
-		 // retur ns boolean value if its matching here.
+		 // returns boolean value if its matching here.
 		 return m.matches();
 		
 	}
