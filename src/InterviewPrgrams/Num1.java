@@ -1,4 +1,4 @@
-package Intervw;
+package InterviewPrgrams;
 
 public class Num1 {
 	public static void main(String[] args) {

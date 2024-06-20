@@ -11,11 +11,12 @@ public class check {
 	 public static void main(String[] args) {
 		
 		 String s = "RaviG2024.^*&)";
-		 System.out.println(s.length());
+		
 		 
 		 StringBuilder letters = new StringBuilder();
 		 StringBuilder digits = new StringBuilder();
 		 StringBuilder spl_charac = new StringBuilder();
+		 
 		 
 		 
 		 for (int i=0; i<s.length(); i++)
@@ -38,11 +39,13 @@ public class check {
 		 System.out.println(letters.toString());
 		 System.out.println(digits.toString());
 		 System.out.println(spl_charac.toString());
+		 LinkedHashMap<Integer,Integer> lh = new LinkedHashMap<Integer,Integer>();
 		 
+		
 	}
 	
 	
-	
+	//Rakuten interview question F_2_F
 	
 
 	}	

@@ -18,8 +18,5 @@ public class StngCheck {
 		 }
 		 System.out.println(s1);
 }
-
-	List<String> reversedWords = Arrays.stream(words)
-		    .map(word -> new StringBuilder(word).reverse().toString())
-		    .collect(Collectors.toList());
 }
+	

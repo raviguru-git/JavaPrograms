@@ -1,10 +1,14 @@
-package Intervw;
+package InterviewPrgrams;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
+import java.util.Scanner;
 
 public class OccurrenceUsingMap {
 	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
 		String s="aaabbbccddae";
 		char [] c=s.toCharArray();
 		HashMap< Character, Integer>hm=new HashMap<>();

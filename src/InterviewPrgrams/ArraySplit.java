@@ -1,4 +1,4 @@
-package Intervw;
+package InterviewPrgrams;
 
 import java.util.Arrays;
 
