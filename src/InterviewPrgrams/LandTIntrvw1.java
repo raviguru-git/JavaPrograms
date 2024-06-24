@@ -43,6 +43,7 @@ public class LandTIntrvw1 {
 	}*/
 		
 		String s = "abc#&*de?!fgh";
+		// o/p String -> hgf#&*ed?!cba
 		StringBuilder s1 = new StringBuilder();
 		
 		char [] ch = s.toCharArray();
@@ -51,12 +52,12 @@ public class LandTIntrvw1 {
 		
 		while(i<j)
 		{
-			if(!(Character.isAlphabetic(ch[i])))
-			{
-				i++;
+			if(!(Character.isAlphabetic(ch[i]))) // checking for not alphabetic,it just increments 
+			{                                    // the i counter or value not changing anything.
+				i++;     
 			}
-			else if (!( Character.isAlphabetic(ch[j])))
-			{
+			else if (!( Character.isAlphabetic(ch[j])))// checking for not alphabetic,it just decrements 
+			{                                          // the j counter or value not changing anything.
 				j--;
 			}
 			else 

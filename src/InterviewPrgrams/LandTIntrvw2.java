@@ -18,9 +18,9 @@ public class LandTIntrvw2 {
 		 * } System.out.println(min);
 		 */
 		// And then sort the array also.
-		for (int i=0; i<arr.length-1; i++)
+		for (int i=0; i<arr.length-1; i++) // for number of passes.
 		{
-			for ( int j=0; j<arr.length-1; j++)
+			for ( int j=0; j<arr.length-1; j++) // to compare the elements.
 			{
 				if ( arr[j] > arr[j+1])
 				{
